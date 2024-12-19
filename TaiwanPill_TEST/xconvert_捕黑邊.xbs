@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="xconvert_捕黑邊">
+    <Canvas_resize mode="1" width="640" height="640" width2="100" height2="100" width3="0" height3="0" unit="0" relative="true" ratio="false" orientation="false" color="#000000" colorFlag="false" colorAt="0" alpha="255" position="4"/>
+    <Resize mode="0" width="640" height="640" unit="0" ratio="true" orientation="false" enlarge="0" resample="7" gamma_correct="false"/>
+    <Output folder="" filename="{Filename}" case="0" startIndex="49" format="">
+        <Options overwrite="1" orgDate="false" keepMeta="false" keepICC="false" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="true" multipage="false" allPages="false" openExplorer="false" beep="false" openBrowser="false" clearItems="false"/>
+        <JPEG quality="80" progressive="false" optimizeHuffman="false" rebuildThumb="true" orgQuality="false" DCTMethod="0" subSampling="0" smoothFactor="0"/>
+        <TGA compress="false" bottomUp="false"/>
+        <TIFF compress="0" quality="80" compressBW="0" oneStrip="false"/>
+        <BMP compress="false" hdrOS2="false"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+        <GIF interlaced="false" hdr87a="false"/>
+        <PCX compress="false"/>
+        <WEBP method="0" quality="80" filesize="128" compress="4" strength="60" sharpness="0" preset="0" sharpyuv="false"/>
+        <JPEGLI quality="80" progressive="false" optimizeHuffman="false" rebuildThumb="true" orgQuality="false" DCTMethod="0" subSampling="0" smoothFactor="0" useXYB="false"/>
+        <JP2 mode="0" quality="80" ratio="4" fileSize="100"/>
+        <PDF compress="0" compressGrey="0" compressBW="0" quality="80"/>
+        <JXR quality="80" colorFormat="0" filter="0"/>
+        <AVIF quality="80" format="0" speed="5"/>
+        <JPEGXL quality="80" lossless="true" effort="7"/>
+        <HEIC quality="80"/>
+        <FORMATS_SETTINGS keepEXIF="true" keepICC="true" keepIPTC="true" keepXMP="true"/>
+    </Output>
+</XnView_script>

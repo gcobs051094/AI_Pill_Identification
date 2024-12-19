@@ -1,0 +1,17 @@
+train:
+yolo task=segment mode=train model=yolov8s-seg.pt data='G:/Side_Pro/YOLOv8_TaiwanPill/data/Taiwan_Pill_10_classes_640/data.yaml' epochs=50 imgsz=640 batch=16 close_mosaic=0
+yolo task=segment mode=train model=yolov8n-seg.pt data='G:/Side_Pro/YOLOv8_TaiwanPill/data/Taiwan_Pill_10_classes_640/data.yaml' epochs=50 imgsz=640 batch=16 close_mosaic=0
+
+超參數調整
+yolo task=segment mode=train model=yolov8s-seg.pt data='G:/Side_Pro/YOLOv8_TaiwanPill/data/Taiwan_Pill_10_classes_640/data.yaml' epochs=50 imgsz=640 batch=32 close_mosaic=0 degrees=180 patience=5 scale=0.3 fliplr=0.0 copy_paste=0.5 flipud=0.5 crop_fraction=1.0 hsv_h=0.0 hsv_s=0.0 hsv_v=0.0 translate=0.0 copy_paste_mode=mixup erasing=0.0 mosaic=0.0
+
+
+
+val:
+yolo task=segment mode=val model=yolo task=segment mode=val model='G:/Side_Pro/YOLOv8_SurgeryTool/models/train_s_119gen_16batch_640_AUG_HP3.pt' data='G:/Side_Pro/YOLOv8_SurgeryTool/data/SurgeryTool_ALLCollectionsAndLabels_640_AUG/data.yaml'
+
+test:
+yolo task=segment mode=predict model='G:/Side_Pro/YOLOv8_TaiwanPill/models/train_s_79gen_16batch_640_AUG_HP1.pt' conf=0.5 source='G:/Side_Pro/YOLOv8_TaiwanPill/data/Taiwan_Pill_10_classes_640/test/images' save=true show_labels=True show_conf=False
+
+exprot onnx:
+yolo export model='G:/Side_Pro/YOLOv8_SurgeryTool/models/29_s_50gen_8batch_1025.pt' format=onnx
