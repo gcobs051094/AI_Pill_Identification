@@ -35,3 +35,7 @@
 ## 未來執行
 1. 將最後版本的ResNet50(self-attention)用Triplet Loss訓練
 2. 更換model為EfficientB3
+
+## Reference
+1. 台灣藥品外觀查詢: https://drugtw.com/
+2. 台灣藥品外觀資料集:https://data.gov.tw/dataset/9120 
