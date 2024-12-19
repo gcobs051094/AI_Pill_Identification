@@ -15,7 +15,10 @@
 [Taiwan_Pill_10_for_train](https://universe.roboflow.com/doccampill/taiwan_pill_10_for_train)
 
 ## Train
-1. 未上傳，Local端的Train/YOLOv8_TaiwanPill
+1. Train/YOLOv8_TaiwanPill
+
+## 算法Test+影像處理
+1. TaiwanPill_TEST
 
 ## 問題
 1. 偵測(分割)穩定度不足、高相似性藥丸易誤判
